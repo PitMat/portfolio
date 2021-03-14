@@ -98,7 +98,9 @@ img {
     display: block;
 }
 
-
+.l-main{
+    padding: 1.5em;
+}
 .section {
     padding: 4rem 0 2rem;
 
@@ -146,19 +148,21 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .nav__menu {
     position: fixed;
     top: 0;
     left: -100%;
-    width: 90%;
+    width: 70%;
     height: 100vh;
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     align-items: center;
     background-color: var(--first-color);
     transition: .5s;
+    
 }
 
 .nav__close {
@@ -177,7 +181,7 @@ img {
 }
 
 .nav__link {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     color: var(--first-color-lighten);
     font-weight: var(--font-bold);
@@ -192,7 +196,9 @@ img {
     color: var(--first-color-dark);
     font-size: 1.3rem;
     cursor: pointer;
+  
 }
+
 
 .show {
     left: 0;
@@ -295,10 +301,12 @@ img {
 
 .about__data {
     text-align: center;
+    font-size: 1.2em;
 }
 
 .about__description {
     margin-bottom: var(--mb-4);
+    
 }
 
 
@@ -373,7 +381,7 @@ img {
 
 
 .skills__js {
-    width: 50%;
+    width: 70%;
 }
 
 .skills__react {
@@ -381,7 +389,7 @@ img {
 }
 
 .skills__sass {
-    width: 50%;
+    width: 70%;
 }
 
 .skills__node {
@@ -462,7 +470,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(204, 75, 44, .7);
+    background: rgba(161, 204, 44, 0.7);
     border-radius: .5rem;
     transition: .3s;
 }

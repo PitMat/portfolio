@@ -1,6 +1,6 @@
-const navMenu=document.getElementById('nav-menu'),
-        toggleMenu=document.getElementById('nav-toggle'),
-        closeMenu=document.getElementById('nav-close')
+const navMenu = document.getElementById('nav-menu');
+const toggleMenu = document.getElementById('nav-toggle');
+const closeMenu = document.getElementById('nav-close');
 
         toggleMenu.addEventListener('click', ()=>{
             navMenu.classList.toggle('show')
